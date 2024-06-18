@@ -17,6 +17,13 @@ body {
 
 .nav-group {
   display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.nav-group:nth-child(2) {
+  margin-left: auto;
+  gap: 16px;
 }
 
 .profile-image {
@@ -32,10 +39,12 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: 16px;
 }
 
 .links {
   display: flex;
+  gap: 16px;  
 }
 
 button {
@@ -54,4 +63,6 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
