@@ -39,6 +39,16 @@ body {
   flex-shrink: 0;
 }
 
+.header-whole {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
