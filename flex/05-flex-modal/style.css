@@ -39,6 +39,12 @@ body {
   flex-shrink: 0;
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .header-whole {
   display: flex;
   justify-content: space-between;
