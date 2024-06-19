@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,6 +17,9 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px 16px;
   border: none;
   border-radius: 8px;
   background: #eee;
@@ -32,6 +36,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  gap: 16px;
 }
 
 a {
@@ -42,12 +47,15 @@ a {
 .header,
 .content,
 .footer,
+ul,
 .header > *,
 .footer > * {
   display: flex;
 }
 
-.header {
+.header,
+.footer {
+  padding: 16px;
   justify-content: space-between;
 }
 
@@ -56,6 +64,10 @@ a {
   align-items: center;
 }
 
+.buttons {
+  margin-top: 16px;
+}
+
 .footer {
-  justify-content: space-between;
+  background-color: #eee;
 }
